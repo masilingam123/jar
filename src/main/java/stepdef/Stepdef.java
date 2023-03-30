@@ -16,7 +16,7 @@ public class Stepdef extends Pom{
 	@Given("hit API using pom")
 	public void hit_api_using_pom() {
 		RestAssured.baseURI= pom.PostURL ;
-	req=RestAssured.given().header(auth, bearer);
+	req=RestAssured.given().header(auth,  "Bearer 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");
 	pom.setName("masi");
 	pom.setDescription("training purpose");
 	pom.setHomepage("www.google.com");
@@ -57,7 +57,7 @@ public class Stepdef extends Pom{
 	}
 	@Then("use authentication")
 	public void use_authentication() {
-		req = RestAssured.given().header(auth, bearer);
+		req = RestAssured.given().header(auth,  "Bearer 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");
 	}
 	@Then("hit api with delete")
 	public void hit_api_with_delete() {
