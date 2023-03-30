@@ -2,7 +2,7 @@ package pom;
 
 public class Pom {
 			public String PostURL ="https://api.github.com/user/repos";
-			public String bearer = "Bearer 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";
+			public String bearer = "Bearer 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";
 			public String auth = "Authorization";
 			public String user ="masilingam123";
 			public String repo ="masi";
